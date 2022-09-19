@@ -1,0 +1,70 @@
+.background_img {
+    display: flex;
+    background-image: url("images/skyline.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 80px;
+    margin: 15px;
+    justify-content: center;
+    font-size: medium;
+    font-family: cursive;
+}
+
+.about_me {
+    display: flex;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.description {
+    text-align: center;
+    padding-right: 50px;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+ul {
+    font-size: large;
+}
+
+.hobbies_title {
+    text-align: center;
+    font-family: cursive;
+}
+
+.hobby_list_pics {
+    display: flex;
+}
+
+.hobby_list {
+    font-size: large;
+    font-family: cursive;
+}
+
+.hobby_pics {
+    display: flex;
+    justify-content: center;
+}
+
+#personal_pic {
+    border-radius: 50%;
+}
+
+#pics {
+    border-radius: 25%;
+}
+
+.contact {
+    font-size: xx-large;
+    font-family: cursive;
+    padding-left: 25px;
+    text-align: center;
+}
+
+.foot {
+    font-size: large;
+}
